@@ -1,0 +1,11 @@
+{
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "description": "CatShop web platform",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "image": "heroku/nodejs",
+  "name": "CatShop"
+}
